@@ -1,12 +1,10 @@
 #include <iostream>
 
-#include "problem1.h"
-#include "problem2.h"
+#include "problem3.h"
 
 int main()
 {
-	// Problem1::Run();
-	Problem2::Run();
+	Problem3::Run();
 
 	return 0;
 }
