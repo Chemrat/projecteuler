@@ -1,10 +1,10 @@
 #include <iostream>
 
-#include "problem7.h"
+#include "problem6.h"
 
 int main()
 {
-	Problem7::Run();
+	Problem6::Run();
 
 	return 0;
 }
