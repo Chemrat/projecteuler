@@ -3,6 +3,8 @@
 #include <set>
 #include <cmath>
 
+#include <iostream>
+
 bool isPrime(long input)
 {
 	static std::set<long> primes;
@@ -16,6 +18,7 @@ bool isPrime(long input)
 		if (prime > max) break;
 	}
 
+	//std::cout << input << std::endl;
 	primes.insert(input);
 	return true;
 }
