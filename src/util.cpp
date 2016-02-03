@@ -23,3 +23,12 @@ bool isPrime(long input)
 	return true;
 }
 
+long arithmeticProgression(long start, long end)
+{
+	long max = end - 1;
+	while (max % start != 0)
+		max--;
+	long n = max / start;
+	long sum = n * (start + max) / 2;
+	return sum;
+}
