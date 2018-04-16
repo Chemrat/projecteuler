@@ -1,10 +1,10 @@
 #include <iostream>
 
-#include "problem13.h"
+#include "dragon_vs_knight.h"
 
 int main()
 {
-	Problem13::Run();
+	DragonVsKnight::Run();
 
 	return 0;
 }
